@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile responsive -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">  
+    <h1>snap</h1>
+    <div class="menu-container"> 
+      
+      <!-- Main navigation links -->
+      <ul>
+        <li id="Features">
+          <a href="">Features <img src="./images/icon-arrow-down.svg"></a>
+          <div class="dropdown">
+            <a href="#"><img src="./images/icon-todo.svg"> Todo List</a>
+            <a href="#"><img src="./images/icon-calendar.svg"> Calendar</a>
+            <a href="#"><img src="./images/icon-reminders.svg"> Reminders</a>
+            <a href="#"><img src="./images/icon-planning.svg"> Planning</a>
+          </div>
+        </li>
+        <li id="company">
+          <a href="">Company <img src="./images/icon-arrow-down.svg"></a>
+          <div class="dropdown">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </li>
+        <li id="careers"><a href="">Careers</a></li>
+        <li id="about"><a href="">About</a></li>
+      </ul>
+
+
+      <div class="logs">
+        <button class="login">Login</button>
+        <button class="signup">Register</button>
+      </div>
+    </div>
+
+    <!-- Hamburger icon (visible on mobile only) -->
+    <button id="hamburger">
+  <img id="menu-icon" src="./images/icon-menu.svg" alt="Menu" width="24" height="24" />
+  <img id="close-icon" src="./images/icon-close-menu.svg" alt="Close" width="24" height="24" />
+</button>
+  </nav>
+  <!----- END OF NAVBAR  ----->
+
+  <div class="hero_section">
+      <div class="hero_content">
+        <div class="invisible"></div>
+        <h2><span>Make</span> remote work</h2>
+        <p> <span>Get your team in sync, no matter your location. </span> <span> Streamline processes, create team rituals, and </span> <span>watch productivity soar.</span></p>
+        <button class="hero_btn">Learn more</button>
+        <div class="invisible2"></div>
+        <div class="hero_link">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+        </div>
+      </div>
+      <div class="hero_img_container">
+          <img src="./images/image-hero-desktop.png" class="hero_img" alt="">
+      </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
