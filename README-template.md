@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/digitalDT1/dropdown_nav_project0.1))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://digitaldt1.github.io/dropdown_nav_project0.1/))
 
 ## My process
 
